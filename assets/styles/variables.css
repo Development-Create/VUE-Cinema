@@ -1,0 +1,10 @@
+:root{
+    --primaryColor: #040D1F;
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --orangeColor: #f18128;
+    /* Шрифты */
+    --font-family: "Comfortaa", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+    --third-family: "Roboto", sans-serif;
+}

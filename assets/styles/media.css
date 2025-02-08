@@ -1,0 +1,126 @@
+@media (max-width: 1200px){
+    .films__cards {
+        overflow-x: scroll;
+    }
+    
+    .films__cards-item{
+        min-width: 255px;
+    }
+}
+
+@media (max-width: 992px){
+    
+}
+
+@media (max-width: 768px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .logo img{
+        max-width: 60%;
+    }
+    
+    .logo span{
+        font-size: 14px;
+    }
+    
+    .preview h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .preview p {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 576px){
+    #toggle-menu{
+
+    }
+    
+    #nav-button{
+        display: flex;
+        position: relative;
+    }
+    
+    #nav-button span{
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        position: relative;
+        top: -10px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    #nav-button span::before{
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    #nav-button span::after{
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 20px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    
+    .nav__list{
+        display: flex;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background: var(--blackColor);
+        padding: 30px;
+        flex-direction: column;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: .2s ease-in-out;
+    }
+    
+    #toggle-menu:checked~.nav__list{
+        transform: scaleY(1);
+    }
+
+    #toggle-menu:checked~#nav-button span::before{
+        background: var(--orangeColor);
+        opacity: 0%;
+    }
+
+    #toggle-menu:checked~#nav-button span{
+        transform: rotate(45deg) scaleX(1.1);
+        background: var(--orangeColor);
+        left: 0;
+        top: 0;
+    }
+
+    #toggle-menu:checked~#nav-button span::after{
+        transform: rotate(-90deg) scaleX(1.1);
+        background: var(--orangeColor);
+        top: 0;
+        left: 0;
+    }
+    
+    .preview__btns{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}

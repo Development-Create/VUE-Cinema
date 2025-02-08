@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/media.css">
+    <title>VUE Cinema</title>
+</head>
+<body>
+    <div class="poster">
+        <img src="./assets/images/poster.svg" alt="poster">
+        <p>See no special offer <br> restrictions</p>
+    </div>
+    
+    <header class="header">
+        <nav class="nav">
+            
+            <div class="nav__content container">
+                <a class="logo" href="">
+                    <img src="./assets/images/logo.png" alt="VUE">
+                    <span>CINEMAS</span>
+                </a>
+                <input type="checkbox" id="toggle-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="" class="nav__list-link" data-text="Films">
+                            Films
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__list-link" data-text="Serials">
+                            Serials
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__list-link" data-text="Cartoons">
+                            Cartoons
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__list-link" data-text="Collection">
+                            Collection
+                            <span></span>
+                        </a>
+                    </li>
+                </ul>
+                <label id="nav-button" for="toggle-menu">
+                    <span></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="preview">
+            <div class="preview__content container">
+                <h1>Kong: Skull Island</h1>
+                <span>The film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to the Skull island, always covered in fog, on which King Kong was once caught to find the missing brother and some mysterious substance. During...</span>
+                
+                <div class="preview__btns">
+                    <button class="primary__btns-item primary__btn">
+                        <span>Watch now</span></button>
+                    <button class="primary__btns-item primary__btn reverse">
+                        <span>Download</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="films">
+            <div class="films__content container">
+                <h2 class="primary__title films__title">
+                    Films
+                </h2>
+                
+                <div class="films__cards">
+                    <div class="films__cards-item">
+                        <img class="film__cover" src="./assets/images/mitty.png" alt="">
+                        
+                        <div class="film__params">
+                            <img src="./assets/images/play.svg" alt="PLAY!">
+                        
+                            <p class="film__time">2<span>:</span>14<span>:</span>33</p>
+                        </div>
+                        
+                        <div class="film__desc">
+                            <h4>Walter Mitty</h4>
+                            <p>Walter works with photojournalist Sean O'Connell, although they have never met in person. At work later that day, Walter receives a negative roll from Sean with a wallet as a gift in appreciation of Walter's work over the years.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="films__cards-item">
+                        <img class="film__cover" src="./assets/images/truman.png" alt="">
+                        <div class="film__params">
+                            <img src="./assets/images/play.svg" alt="PLAY!">
+                        
+                            <p class="film__time">2<span>:</span>32<span>:</span>13</p>
+                        </div>
+                        
+                        <div class="film__desc">
+                            <h4>The Truman Show</h4>
+                            <p>Selected at birth and legally adopted by a television, Truman Burbank is the unsuspecting star of The Truman Show, a television program filmed and broadcast worldwide, 24/7, through approximately five thousand hidden cameras.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="films__cards-item">
+                        <img class="film__cover" src="./assets/images/happiness.png" alt="">
+                        <div class="film__params">
+                            <img src="./assets/images/play.svg" alt="PLAY!">
+                        
+                            <p class="film__time">2<span>:</span>14<span>:</span>33</p>
+                        </div>
+                        
+                        <div class="film__desc">
+                            <h4>The Happiness</h4>
+                            <p>Salesman Chris Gardner invests his entire life savings in portable bone-density scanners, which he demonstrates to doctors and pitches as a handy improvement over standard X-rays. The scanners play a vital role in Chris's life.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="films__cards-item">
+                        <img class="film__cover" src="./assets/images/rainman.png" alt="">
+                        <div class="film__params">
+                            <img src="./assets/images/play.svg" alt="PLAY!">
+                        
+                            <p class="film__time">2<span>:</span>14<span>:</span>33</p>
+                        </div>
+                        
+                        <div class="film__desc">
+                            <h4>Rain Man</h4>
+                            <p>The remainder of the $3 million estate is going to an unnamed trustee. Charlie learns that the money is being directed to a local mental institution, where he meets his elder brother Raymond, of whom he was unaware.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="video">
+            
+            <video src="https://rr4---sn-4g5ednld.googlevideo.com/videoplayback?expire=1739057389&ei=jZSnZ4yZOpa5kucPnJTvwAc&ip=163.123.201.170&id=o-AL0GlcQcCWKIauTUo2MuoL7MThQqPkHlw19J0GhLbhey&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AUWDL3z1XJZ-vUgOLpZYuJbsuC5QNw6Kzo4XBrtJj8dwt2AwZMKoAox3_Sx6v_DaXsHGodX8xN8gD9aR&spc=RjZbSa2iyPfSoli-WMz24BHm3FKxO3NrZBB9YBQME3jypQZIeGzgNf-OlMGp3jw&vprv=1&svpuc=1&mime=video%2Fmp4&ns=6w97jySX3fGvf94iA09iNHUQ&rqh=1&gir=yes&clen=9764655&ratebypass=yes&dur=167.926&lmt=1699763075096462&lmw=1&fexp=24350590,24350737,24350827,24350934,24350961,24350976,24351028,24351059,24351082,51326932,51371294&c=TVHTML5&sefc=1&txp=5318224&n=_b5-k36W8bobNQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgXjbDvqGAjjK3dx3Ev4l4N6FqkZ3DaCcejW9xFtRkaWECIFj63T5DrA9j1HpqfXxsDReAZWzvCFzZAud8L_ws8dVH&rm=sn-gjo-qj5l7l&rrc=79,80&req_id=583fdc59aa28a3ee&redirect_counter=2&cm2rm=sn-p5qe767s&cms_redirect=yes&cmsv=e&met=1739035799,&mh=sK&mip=213.230.112.153&mm=34&mn=sn-4g5ednld&ms=ltu&mt=1739035480&mv=m&mvi=4&pl=23&rms=ltu,au&lsparams=met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=AGluJ3MwRgIhAJX1qRN8nim4Vl1_zAvgniIUgbZs9AWkShTFqIo-4fArAiEAp2meFxcs-a80bRIxKOWS1ZqroEADJkBjSNyd-PVy6OQ%3D" class="trailer__bg" autoplay muted loop></video>
+            
+            <div class="video__content container">
+                <div class="video__desc">
+                    <img src="./assets/images/paramount_logo.png" alt="">
+                    
+                    <p>Paramount  is an American film production and distribution company and the namesake subsidiary of Paramount Global. It is the sixth-oldest film making studio in the world, the second-oldest film studio in the United States. With our platform you can watch hundreds of films made by Paramount Pictures. Enjoy your evening with us!</p>
+                    
+                    <button class="primary__btns-item primary__btn">
+                        <span>Watch now</span></button>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="collections">
+            <div class="collections__content container">
+                <h2 class="primary__title collections__title">collections</h2>
+                
+                <div class="collections__cards">
+                    <div class="collections__cards-item">
+                        <img src="./assets/images/col_2.png" alt="">
+                        
+                        <div class="collections__cards-item-content">
+                            <svg width="42" height="47" viewBox="0 0 42 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M39.1658 19.8153L7.25958 0.953972C4.6672 -0.576791 0.696136 0.908656 0.696136 4.69886V42.4133C0.696136 45.8119 4.38439 47.8593 7.25958 46.1563L39.1658 27.305C42.012 25.6247 42.0211 21.4919 39.1658 19.8153ZM29.8731 26.0543L10.8735 37.279C8.94463 38.4255 6.49727 37.0279 6.49727 34.7821V12.3237C6.49727 10.0778 8.94463 8.68391 10.8735 9.82768L29.8731 21.0614C30.307 21.3179 30.6665 21.6831 30.9163 22.1208C31.166 22.5586 31.2974 23.0539 31.2974 23.5579C31.2974 24.0618 31.166 24.5571 30.9163 24.9949C30.6665 25.4327 30.307 25.7978 29.8731 26.0543Z" fill="white" fill-opacity="0.5" />
+                                <path d="M10.8735 9.8295L29.8731 21.0614C30.307 21.318 30.6665 21.6831 30.9163 22.1209C31.166 22.5586 31.2974 23.0539 31.2974 23.5579C31.2974 24.0619 31.166 24.5571 30.9163 24.9949C30.6665 25.4327 30.307 25.7978 29.8731 26.0543L10.8735 37.279C8.94459 38.4255 6.49724 37.028 6.49724 34.7821V12.3237C6.49724 10.0796 8.94459 8.68574 10.8735 9.8295Z" fill="white" />
+                              </svg>
+                        </div>
+                        
+                        
+                        <div class="little__squares">
+                            <div class="little__squares-holder">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            
+                            <div class="little__squares-holder">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collections__cards-item">
+                        <img src="./assets/images/col_2.png" alt="">
+                        
+                        <div class="collections__cards-item-content">
+                            <svg width="42" height="47" viewBox="0 0 42 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M39.1658 19.8153L7.25958 0.953972C4.6672 -0.576791 0.696136 0.908656 0.696136 4.69886V42.4133C0.696136 45.8119 4.38439 47.8593 7.25958 46.1563L39.1658 27.305C42.012 25.6247 42.0211 21.4919 39.1658 19.8153ZM29.8731 26.0543L10.8735 37.279C8.94463 38.4255 6.49727 37.0279 6.49727 34.7821V12.3237C6.49727 10.0778 8.94463 8.68391 10.8735 9.82768L29.8731 21.0614C30.307 21.3179 30.6665 21.6831 30.9163 22.1208C31.166 22.5586 31.2974 23.0539 31.2974 23.5579C31.2974 24.0618 31.166 24.5571 30.9163 24.9949C30.6665 25.4327 30.307 25.7978 29.8731 26.0543Z" fill="white" fill-opacity="0.5" />
+                                <path d="M10.8735 9.8295L29.8731 21.0614C30.307 21.318 30.6665 21.6831 30.9163 22.1209C31.166 22.5586 31.2974 23.0539 31.2974 23.5579C31.2974 24.0619 31.166 24.5571 30.9163 24.9949C30.6665 25.4327 30.307 25.7978 29.8731 26.0543L10.8735 37.279C8.94459 38.4255 6.49724 37.028 6.49724 34.7821V12.3237C6.49724 10.0796 8.94459 8.68574 10.8735 9.8295Z" fill="white" />
+                              </svg>
+                        </div>
+                        
+                        
+                        <div class="little__squares">
+                            <div class="little__squares-holder">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            
+                            <div class="little__squares-holder">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collections__cards-item">
+                        <img src="./assets/images/col_2.png" alt="">
+                        
+                        <div class="collections__cards-item-content">
+                            <svg width="42" height="47" viewBox="0 0 42 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M39.1658 19.8153L7.25958 0.953972C4.6672 -0.576791 0.696136 0.908656 0.696136 4.69886V42.4133C0.696136 45.8119 4.38439 47.8593 7.25958 46.1563L39.1658 27.305C42.012 25.6247 42.0211 21.4919 39.1658 19.8153ZM29.8731 26.0543L10.8735 37.279C8.94463 38.4255 6.49727 37.0279 6.49727 34.7821V12.3237C6.49727 10.0778 8.94463 8.68391 10.8735 9.82768L29.8731 21.0614C30.307 21.3179 30.6665 21.6831 30.9163 22.1208C31.166 22.5586 31.2974 23.0539 31.2974 23.5579C31.2974 24.0618 31.166 24.5571 30.9163 24.9949C30.6665 25.4327 30.307 25.7978 29.8731 26.0543Z" fill="white" fill-opacity="0.5" />
+                                <path d="M10.8735 9.8295L29.8731 21.0614C30.307 21.318 30.6665 21.6831 30.9163 22.1209C31.166 22.5586 31.2974 23.0539 31.2974 23.5579C31.2974 24.0619 31.166 24.5571 30.9163 24.9949C30.6665 25.4327 30.307 25.7978 29.8731 26.0543L10.8735 37.279C8.94459 38.4255 6.49724 37.028 6.49724 34.7821V12.3237C6.49724 10.0796 8.94459 8.68574 10.8735 9.8295Z" fill="white" />
+                              </svg>
+                        </div>
+                        
+                        
+                        <div class="little__squares">
+                            <div class="little__squares-holder">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            
+                            <div class="little__squares-holder">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="series">
+            <div class="series__content container">
+                <h2 class="primary__title">Series</h2>
+            
+            <!--<div class="popular__films-holder container">
+                <div class="film big">
+                </div>
+                <div class="film medium">
+                </div>
+                <div class="little__films-holder">
+                    <div class="film little"></div>
+                    <div class="film little"></div>
+                    <div class="film little"></div>
+                    <div class="film little"></div>
+                </div>
+            </div>
+        -->
+        
+                <div class="series__cards">
+                    <div class="series__cards-item big">
+                        <img src="./assets/images/interstellar.png" alt="">
+                    </div>
+                    <div class="series__cards-item medium">
+                        <img src="./assets/images/mitty_poster.png" alt="">
+                    </div>
+                    <div class="series__cards-item">
+                        <img src="./assets/images/birds_poster.png" alt="">
+                    </div>
+                    <div class="series__cards-item">
+                        <img src="./assets/images/lion_poster.png" alt="">
+                    </div>
+                    <div class="series__cards-item">
+                        <img src="./assets/images/sherlock_poster.png" alt="">
+                    </div>
+                    <div class="series__cards-item">
+                        <img src="./assets/images/journey_poster.png" alt="">
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+    
+    
+    <footer class="footer">
+        
+    </footer>
+</body>
+</html>
