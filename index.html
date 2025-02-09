@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./assets/styles/media.css">
+    <link rel="stylesheet" href="./assets/styles/video-playback.css">
     <title>VUE Cinema</title>
 </head>
 <body>
@@ -141,7 +142,7 @@
         
         <section class="video">
             
-            <video src="https://rr4---sn-4g5ednld.googlevideo.com/videoplayback?expire=1739057389&ei=jZSnZ4yZOpa5kucPnJTvwAc&ip=163.123.201.170&id=o-AL0GlcQcCWKIauTUo2MuoL7MThQqPkHlw19J0GhLbhey&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AUWDL3z1XJZ-vUgOLpZYuJbsuC5QNw6Kzo4XBrtJj8dwt2AwZMKoAox3_Sx6v_DaXsHGodX8xN8gD9aR&spc=RjZbSa2iyPfSoli-WMz24BHm3FKxO3NrZBB9YBQME3jypQZIeGzgNf-OlMGp3jw&vprv=1&svpuc=1&mime=video%2Fmp4&ns=6w97jySX3fGvf94iA09iNHUQ&rqh=1&gir=yes&clen=9764655&ratebypass=yes&dur=167.926&lmt=1699763075096462&lmw=1&fexp=24350590,24350737,24350827,24350934,24350961,24350976,24351028,24351059,24351082,51326932,51371294&c=TVHTML5&sefc=1&txp=5318224&n=_b5-k36W8bobNQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgXjbDvqGAjjK3dx3Ev4l4N6FqkZ3DaCcejW9xFtRkaWECIFj63T5DrA9j1HpqfXxsDReAZWzvCFzZAud8L_ws8dVH&rm=sn-gjo-qj5l7l&rrc=79,80&req_id=583fdc59aa28a3ee&redirect_counter=2&cm2rm=sn-p5qe767s&cms_redirect=yes&cmsv=e&met=1739035799,&mh=sK&mip=213.230.112.153&mm=34&mn=sn-4g5ednld&ms=ltu&mt=1739035480&mv=m&mvi=4&pl=23&rms=ltu,au&lsparams=met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=AGluJ3MwRgIhAJX1qRN8nim4Vl1_zAvgniIUgbZs9AWkShTFqIo-4fArAiEAp2meFxcs-a80bRIxKOWS1ZqroEADJkBjSNyd-PVy6OQ%3D" class="trailer__bg" autoplay muted loop></video>
+            <iframe width="1180" src="https://www.youtube.com/embed/QD6cy4PBQPI?si=EKMa0dyc0qW-GiU4&amp;controls=0&amp;start=9&autoplay=1&mute=1&loop=1&playlist=QD6cy4PBQPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="trailer__bg"></iframe>
             
             <div class="video__content container">
                 <div class="video__desc">
@@ -272,22 +273,48 @@
         
                 <div class="series__cards">
                     <div class="series__cards-item big">
-                        <img src="./assets/images/interstellar.png" alt="">
+                        <img src="./assets/images/interstellar.png" alt="" class="series__cards-item-cover">
+                        <div class="series__cards-item-title main-title">
+                            <h4>interstellar</h4>
+                            <p>In 2067, humanity faces extinction due to a global blight. Joseph Cooper, a former NASA test pilot, agrees to pilot NASA's latest mission, to search a distant galaxy for habitable planets. Back home, Cooper's daughter, Murph, insists he stay. Cooper pledges to return, and leaves to join the Endurance team, consisting of scientists Romilly, Doyle, Amelia Brand, and the artificially-intelligent robots, TARS and CASE...</p>
+                            <button class="primary__btns-item primary__btn">
+                                <span>Watch now</span></button>
+                        </div>
                     </div>
                     <div class="series__cards-item medium">
-                        <img src="./assets/images/mitty_poster.png" alt="">
+                        <img src="./assets/images/mitty_poster.png" alt="" class="series__cards-item-cover">
+                        <div class="series__cards-item-title">
+                            <img src="./assets/icons/play.svg" alt="" class="play-button">
+                            <h4>Walter Mitty</h4>
+                        </div>
                     </div>
                     <div class="series__cards-item">
-                        <img src="./assets/images/birds_poster.png" alt="">
+                        <img src="./assets/images/birds_poster.png" alt="" class="series__cards-item-cover">
+                        <div class="series__cards-item-title">
+                            <img src="./assets/icons/play.svg" alt="" class="play-button">
+                            <h4>Angry Birds</h4>
+                        </div>
                     </div>
                     <div class="series__cards-item">
-                        <img src="./assets/images/lion_poster.png" alt="">
+                        <img src="./assets/images/lion_poster.png" alt="" class="series__cards-item-cover">
+                        <div class="series__cards-item-title">
+                            <img src="./assets/icons/play.svg" alt="" class="play-button">
+                            <h4>The lion king</h4>
+                        </div>
                     </div>
                     <div class="series__cards-item">
-                        <img src="./assets/images/sherlock_poster.png" alt="">
+                        <img src="./assets/images/sherlock_poster.png" alt="" class="series__cards-item-cover">
+                        <div class="series__cards-item-title">
+                            <img src="./assets/icons/play.svg" alt="" class="play-button">
+                            <h4>Sherlock Holmes</h4>
+                        </div>
                     </div>
                     <div class="series__cards-item">
-                        <img src="./assets/images/journey_poster.png" alt="">
+                        <img src="./assets/images/journey_poster.png" alt="" class="series__cards-item-cover">
+                        <div class="series__cards-item-title">
+                            <img src="./assets/icons/play.svg" alt="" class="play-button">
+                            <h4>The journey</h4>
+                        </div>
                     </div>
                 </div>
             

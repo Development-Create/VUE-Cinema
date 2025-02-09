@@ -2,7 +2,7 @@
     --primaryColor: #040D1F;
     --whiteColor: #fff;
     --blackColor: #000;
-    --orangeColor: #f18128;
+    --orangeColor: rgb(241, 129, 40);
     /* Шрифты */
     --font-family: "Comfortaa", sans-serif;
     --second-family: "Montserrat", sans-serif;
